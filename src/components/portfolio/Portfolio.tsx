@@ -20,17 +20,6 @@ const Portfolio = () => {
             </h2>
           </div>
 
-          <div className="flex flex-wrap gap-2">
-            {categories.map((c) => (
-              <button
-                key={c}
-                onClick={() => setFilter(c)}
-                className={`pill ${filter === c ? "pill-active" : ""}`}
-              >
-                {c}
-              </button>
-            ))}
-          </div>
         </div>
 
         <motion.div
