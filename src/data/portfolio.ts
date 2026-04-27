@@ -26,7 +26,7 @@ import aiPoncho from "@/assets/ai/ai-poncho.jpg";
 export type Project = {
   id: string;
   title: string;
-  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial";
+  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial" | "RETAIL";
   client: string;
   year: string;
   image: string;
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     description: "Producción cinematográfica con IA para temporada lluviosa." },
 ];
 
-export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial"] as const;
+export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "RETAIL"] as const;
 
 export const experiences = [
   {
