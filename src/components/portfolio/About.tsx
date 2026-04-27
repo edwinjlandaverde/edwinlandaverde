@@ -53,7 +53,7 @@ const About = () => {
                     transition={{ delay: i * 0.05 }}
                     className="grid grid-cols-[100px_1fr] gap-4 pb-5 border-b border-border last:border-0"
                   >
-                    <span className="mono text-[10px] uppercase tracking-widest text-primary pt-1">{e.year}</span>
+                    <span className="mono text-[10px] uppercase tracking-widest text-primary pt-1 whitespace-pre-line">{e.year}</span>
                     <div>
                       <div className="text-sm font-medium leading-tight">{e.degree}</div>
                       <div className="text-xs text-muted-foreground mt-1">{e.school}</div>
