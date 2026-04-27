@@ -26,7 +26,7 @@ import aiPoncho from "@/assets/ai/ai-poncho.jpg";
 export type Project = {
   id: string;
   title: string;
-  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial" | "RETAIL";
+  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial" | "RETAIL" | "DISEÑO 3D";
   client: string;
   year: string;
   image: string;
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     description: "Cover de carrusel de Facebook." },
 ];
 
-export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "RETAIL"] as const;
+export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "RETAIL", "DISEÑO 3D"] as const;
 
 export const experiences = [
   {
