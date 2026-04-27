@@ -101,7 +101,7 @@ const Portfolio = () => {
               >
                 <X className="w-5 h-5" />
               </button>
-              <img src={selected.image} alt={selected.title} className="w-full aspect-[16/10] object-cover" />
+              <img src={selected.image} alt={selected.title} className="w-full aspect-[16/10] object-scale-down" />
               <div className="p-6 md:p-10 grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="md:col-span-2">
                   <div className="mono text-xs uppercase tracking-widest text-primary mb-3 flex items-center gap-2">
