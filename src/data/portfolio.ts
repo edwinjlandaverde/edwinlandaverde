@@ -131,5 +131,4 @@ export const education = [
   { year: "2024", school: "Universidad Tecnológica de El Salvador", degree: "Posgrado en Comunicación Digital y Creación de Contenido" },
   { year: "2022", school: "Universidad Autónoma de Santa Ana", degree: "Licenciatura en Diseño Gráfico Multimedia" },
   { year: "2024", school: "Udemy", degree: "Facebook Ads con IA" },
-  { year: "2023\nCreación de Contenido con Inteligencia Artificial\nUdemy", degree: "Creación de Contenido con Inteligencia Artificial", school: "Udemy" },
 ];
