@@ -68,7 +68,7 @@ const About = () => {
                 {[
                   ["Habilidades", "Dominio técnico de la herramienta como base creativa."],
                   ["Valores", "Honradez, proactividad y responsabilidad en cada entrega."],
-                  ["Diseño", "Función antes que ornamento — propósito sobre tendencia."],
+                  ["Diseño", "Función antes que ornamento propósito sobre tendencia."],
                   ["Innovación", "IA y datos como aliados, no como sustitutos."],
                 ].map(([t, b]) => (
                   <div key={t} className="grid grid-cols-[100px_1fr] gap-4 pb-4 border-b border-border last:border-0">
