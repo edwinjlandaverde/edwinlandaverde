@@ -62,7 +62,7 @@ const Portfolio = () => {
 
                 {p.ai && (
                   <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 mono text-[9px] uppercase tracking-widest px-2.5 py-1 rounded-full bg-primary/90 text-primary-foreground">
-                    <Sparkles className="w-3 h-3" /> {p.category === "3D GENERATIVO" ? "DISEÑO 3D" : (p.category === "RETAIL" ? "" : "FOTOGRAFÍA MEJORADA POR I.A")}
+                    <Sparkles className="w-3 h-3" /> {p.category === "3D GENERATIVO" || p.category === "DISEÑO 3D" ? "DISEÑO 3D" : (p.category === "RETAIL" ? "" : "FOTOGRAFÍA MEJORADA POR I.A")}
                   </span>
                 )}
 
