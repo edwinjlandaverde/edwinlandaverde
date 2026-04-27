@@ -43,7 +43,7 @@ const Nav = () => {
       >
         <div className="container-x flex items-center justify-between">
           <button onClick={() => go("hero")} className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-sm bg-primary flex items-center justify-center text-primary-foreground font-serif italic text-lg">
+            <div className="w-8 h-8 rounded-sm flex items-center justify-center text-primary-foreground font-serif italic text-lg bg-primary">
               EL
             </div>
             <span className="hidden sm:inline mono text-xs uppercase tracking-[0.25em] text-muted-foreground group-hover:text-foreground transition-colors">
