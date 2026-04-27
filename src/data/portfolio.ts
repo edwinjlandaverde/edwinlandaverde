@@ -124,7 +124,6 @@ export const stack = {
   "IA Generativa": ["Gemini", "NanoBanana 2 Pro", "VEO", "Qwen Video", "ChatGPT"],
   Desarrollo: ["React", "Tailwind", "HTML/CSS", "JavaScript"],
   Marketing: ["RETAIL", "Google Analytics", "NotebookLM"],
-  Gestión: ["Notion", "Google Workspace"],
 };
 
 export const education = [
