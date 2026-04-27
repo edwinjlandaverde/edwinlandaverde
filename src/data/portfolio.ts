@@ -53,7 +53,7 @@ export const projects: Project[] = [
     description: "Campaña de redes sociales para evento promocional Milwaukee." },
   { id: "rainx", title: "Rain-X · Lluvia", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiRain, size: "S", tools: ["Gemini"], ai: true,
     description: "Hero shot generado con IA para repelente de lluvia automotriz." },
-  { id: "editorial", title: "Vida Social Magazine", category: "Editorial", client: "Lingodocs", year: "2022", image: editorial, size: "S", tools: ["InDesign", "Illustrator"],
+  { id: "editorial", title: "Vida Social Magazine", category: "Editorial", client: "Lingodocs marketing LLC", year: "2022", image: editorial, size: "S", tools: ["Photoshop", "Illustrator"],
     description: "Rebrand y dirección editorial para revista de estilo de vida." },
   { id: "boots", title: "Botas de Invierno", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiBoots, size: "S", tools: ["NanoBanana 2"], ai: true,
     description: "Imagen producto para línea de calzado outdoor." },
@@ -120,7 +120,7 @@ export const services = [
 ];
 
 export const stack = {
-  Diseño: ["Illustrator", "Photoshop", "InDesign", "After Effects", "NanoBanana Pro"],
+  Diseño: ["Illustrator", "Photoshop", "Photoshop", "After Effects", "NanoBanana Pro"],
   "IA Generativa": ["Gemini", "NanoBanana 2 Pro", "VEO", "Qwen Video", "ChatGPT"],
   Desarrollo: ["React", "Tailwind", "HTML/CSS", "JavaScript"],
   Marketing: ["RETAIL", "Google Analytics", "NotebookLM"],
