@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import { categories, projects, type Project } from "@/data/portfolio";
 import { Sparkles, X } from "lucide-react";
 
-
 const Portfolio = () => {
   const [filter, setFilter] = useState<(typeof categories)[number]>("Todos");
   const [selected, setSelected] = useState<Project | null>(null);
