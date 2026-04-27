@@ -23,7 +23,7 @@ const About = () => {
             className="text-2xl md:text-3xl lg:text-4xl leading-snug text-balance display-serif font-light"
           >
             Soy <em className="italic text-primary">Diseñador Gráfico Multimedia</em> por la Universidad Autónoma de Santa Ana,
-            con posgrado en <em className="italic">Comunicación Digital</em> (UTEC) y actualmente cursando una Maestría
+            con posgrado en <em className="italic">Comunicación Digital</em> (UTEC) y actualmente estudio un Máster
             en Dirección Comercial y Marketing en la Escuela de Negocios Europea de Barcelona.
           </motion.p>
 
@@ -35,7 +35,7 @@ const About = () => {
             className="text-lg leading-relaxed text-muted-foreground max-w-3xl"
           >
             Mi práctica se articula en cuatro ejes: <span className="text-foreground">habilidades técnicas, valores,
-            diseño funcional e innovación digital.</span> Como docente universitario en UNASA, formo a la próxima
+            diseño funcional e innovación digital.</span> Además como docente universitario, formo a la próxima
             generación de diseñadores en fundamentos, señalética y diseño corporativo, integrando metodologías
             ágiles y herramientas de IA generativa.
           </motion.p>
@@ -53,7 +53,7 @@ const About = () => {
                     transition={{ delay: i * 0.05 }}
                     className="grid grid-cols-[100px_1fr] gap-4 pb-5 border-b border-border last:border-0"
                   >
-                    <span className="mono text-[10px] uppercase tracking-widest text-primary pt-1">{e.year}</span>
+                    <span className="mono text-[10px] uppercase tracking-widest text-primary pt-1 whitespace-pre-line">{e.year}</span>
                     <div>
                       <div className="text-sm font-medium leading-tight">{e.degree}</div>
                       <div className="text-xs text-muted-foreground mt-1">{e.school}</div>
