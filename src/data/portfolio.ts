@@ -59,7 +59,7 @@ export const projects: Project[] = [
     description: "Imagen producto en 3D de un troquel inicial a una previsualización del producto finalizado." },
   { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["NanoBanana Pro"],
     description: "Stand publicitario 3D para alimentación especializada Calvo." },
-  { id: "poncho", title: "Cover de facebook", category: "IA Generativa", client: "Castro Realty Houses", year: "2021", image: aiPoncho, size: "S", tools: ["Illustrator", "Photoshop"], ai: true,
+  { id: "poncho", title: "Cover de facebook", category: "RETAIL", client: "Castro Realty Houses", year: "2021", image: aiPoncho, size: "S", tools: ["Illustrator", "Photoshop"],
     description: "Cover de carrusel de Facebook." },
 ];
 
