@@ -3,11 +3,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import { categories, projects, type Project } from "@/data/portfolio";
 import { Sparkles, X } from "lucide-react";
 
-const sizeMap: Record<Project["size"], string> = {
-  L: "md:col-span-2 md:row-span-2 aspect-[4/3]",
-  M: "md:col-span-2 aspect-[4/3]",
-  S: "aspect-square",
-};
 
 const Portfolio = () => {
   const [filter, setFilter] = useState<(typeof categories)[number]>("Todos");
@@ -39,24 +34,27 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-[200px] md:auto-rows-[260px]">
+        <motion.div
+          layout
+          className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-3 md:gap-4 [column-fill:_balance]"
+        >
           <AnimatePresence mode="popLayout">
             {filtered.map((p) => (
               <motion.button
                 key={p.id}
                 layout
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
+                exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
                 onClick={() => setSelected(p)}
-                className={`group relative overflow-hidden bg-bg-secondary rounded-sm ${sizeMap[p.size]} text-left`}
+                className="group relative block w-full mb-3 md:mb-4 break-inside-avoid overflow-hidden bg-bg-secondary rounded-sm text-left"
               >
                 <img
                   src={p.image}
                   alt={p.title}
                   loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="block w-full h-auto transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-background/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
