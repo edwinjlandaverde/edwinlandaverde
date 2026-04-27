@@ -9,8 +9,8 @@ const steps = [
 ];
 
 const stats = [
-  { n: "+50", l: "Campañas con IA en producción comercial" },
-  { n: "3+", l: "Plataformas dominadas: Gemini, NanoBanana, VEO" },
+  { n: "∞", l: "Multiples campañas mejoradas gráficamente con IA en producción comercial" },
+  { n: "+7", l: "Plataformas dominadas: Gemini, NanoBanana 2, Google Flow, Claude, Grok Imagine, Perplexity" },
   { n: "70%", l: "Reducción en tiempos de producción fotográfica" },
 ];
 
