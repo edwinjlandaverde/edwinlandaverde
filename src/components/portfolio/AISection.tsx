@@ -10,7 +10,7 @@ const steps = [
 
 const stats = [
   { n: "∞", l: "Multiples campañas mejoradas gráficamente con IA en producción comercial" },
-  { n: "+7", l: "Plataformas dominadas: Gemini, NanoBanana 2, Google Flow, Claude, Grok Imagine, Perplexity" },
+  { n: "+7", l: "Plataformas dominadas: Gemini, NanoBanana 2, Google Flow, Claude, Grok Imagine, Firefly" },
   { n: "70%", l: "Reducción en tiempos de producción fotográfica" },
 ];
 
