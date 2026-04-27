@@ -26,7 +26,7 @@ import aiPoncho from "@/assets/ai/ai-poncho.jpg";
 export type Project = {
   id: string;
   title: string;
-  category: "Branding" | "Packaging 3D" | "Social Media" | "IA Generativa" | "Editorial";
+  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial";
   client: string;
   year: string;
   image: string;
@@ -39,11 +39,11 @@ export type Project = {
 export const projects: Project[] = [
   { id: "ryobi", title: "Ryobi · Las Mejores Marcas", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiRyobi, size: "L", tools: ["Gemini", "NanoBanana", "Photoshop"], ai: true,
     description: "Campaña fotográfica producida íntegramente con IA generativa para la línea de herramientas eléctricas Ryobi." },
-  { id: "honey", title: "Miel Don Álvaro", category: "Packaging 3D", client: "UKN Producciones", year: "2021", image: honey, size: "M", tools: ["Cinema 4D", "Illustrator", "Photoshop"],
-    description: "Sistema de envases y viñetas en 3D para la marca de miel y propóleos Don Álvaro." },
+  { id: "honey", title: "Polarbox", category: "3D GENERATIVO", client: "Almacenes Vidrí", year: "2026", image: honey, size: "M", tools: ["NanoBanana Pro", "Illustrator", "Photoshop"],
+    description: "Cover de álbum de Facebook" },
   { id: "polar", title: "Polarbox · Verano", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiPolar, size: "M", tools: ["Gemini", "NanoBanana"], ai: true,
     description: "Producción digital para campaña estacional de hieleras Polarbox." },
-  { id: "coffee", title: "1875 Café", category: "Packaging 3D", client: "UKN Producciones", year: "2021", image: coffee, size: "M", tools: ["Cinema 4D", "Illustrator"],
+  { id: "coffee", title: "1875 Café", category: "3D GENERATIVO", client: "Almacenes Vidrí", year: "2026", image: coffee, size: "M", tools: ["NanoBanana Pro", "Illustrator"],
     description: "Empaque y cápsulas para café de especialidad con presentación premium." },
   { id: "ninja", title: "Ninja Crispi", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiNinja, size: "M", tools: ["NanoBanana 2", "VEO"], ai: true,
     description: "Bodegón animado con IA para electrodoméstico Ninja Crispi." },
@@ -57,13 +57,13 @@ export const projects: Project[] = [
     description: "Rebrand y dirección editorial para revista de estilo de vida." },
   { id: "boots", title: "Botas de Invierno", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiBoots, size: "S", tools: ["NanoBanana 2"], ai: true,
     description: "Imagen producto para línea de calzado outdoor." },
-  { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "UKN Producciones", year: "2021", image: stand, size: "L", tools: ["Cinema 4D"],
+  { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["NanoBanana Pro"],
     description: "Stand publicitario 3D para alimentación especializada Calvo." },
   { id: "poncho", title: "Capa de Lluvia VIDRÍ", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiPoncho, size: "S", tools: ["Gemini", "Photoshop"], ai: true,
     description: "Producción cinematográfica con IA para temporada lluviosa." },
 ];
 
-export const categories = ["Todos", "Branding", "Packaging 3D", "Social Media", "IA Generativa", "Editorial"] as const;
+export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial"] as const;
 
 export const experiences = [
   {
@@ -120,7 +120,7 @@ export const services = [
 ];
 
 export const stack = {
-  Diseño: ["Illustrator", "Photoshop", "InDesign", "After Effects", "Cinema 4D"],
+  Diseño: ["Illustrator", "Photoshop", "InDesign", "After Effects", "NanoBanana Pro"],
   "IA Generativa": ["Gemini", "NanoBanana 2 Pro", "VEO", "Qwen Video", "ChatGPT"],
   Desarrollo: ["React", "Tailwind", "HTML/CSS", "JavaScript"],
   Marketing: ["RETAIL", "Google Analytics", "NotebookLM"],
