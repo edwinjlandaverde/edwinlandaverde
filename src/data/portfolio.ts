@@ -26,7 +26,7 @@ import aiPoncho from "@/assets/ai/ai-poncho.jpg";
 export type Project = {
   id: string;
   title: string;
-  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial";
+  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial" | "RETAIL";
   client: string;
   year: string;
   image: string;
@@ -51,8 +51,8 @@ export const projects: Project[] = [
     description: "Sistema de identidad para línea de productos cacao orgánico." },
   { id: "social", title: "Tool Fest Milwaukee", category: "Social Media", client: "Almacenes VIDRÍ", year: "2024", image: social, size: "M", tools: ["Photoshop", "Meta Ads"],
     description: "Campaña de redes sociales para evento promocional Milwaukee." },
-  { id: "rainx", title: "Rain-X · Lluvia", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiRain, size: "S", tools: ["Gemini"], ai: true,
-    description: "Hero shot generado con IA para repelente de lluvia automotriz." },
+  { id: "rainx", title: "Milwaukee", category: "RETAIL", client: "Almacenes VIDRÍ", year: "2023", image: aiRain, size: "S", tools: ["Adobe CC"],
+    description: "Post individual utilizando branding de Toolfest Milwaikee" },
   { id: "editorial", title: "Vida Social Magazine", category: "Editorial", client: "Lingodocs marketing LLC", year: "2022", image: editorial, size: "S", tools: ["Photoshop", "Illustrator"],
     description: "Rebrand y dirección editorial para revista de estilo de vida." },
   { id: "boots", title: "Botas de Invierno", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiBoots, size: "S", tools: ["NanoBanana 2"], ai: true,
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     description: "Producción cinematográfica con IA para temporada lluviosa." },
 ];
 
-export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial"] as const;
+export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "RETAIL"] as const;
 
 export const experiences = [
   {
