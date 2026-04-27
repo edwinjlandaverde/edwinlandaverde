@@ -37,29 +37,29 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  { id: "ryobi", title: "Ryobi · Las Mejores Marcas", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiRyobi, size: "L", tools: ["Gemini", "NanoBanana", "Photoshop"], ai: true,
+  { id: "ryobi", title: "Ryobi · Las Mejores Marcas", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiRyobi, size: "L", tools: ["Gemini", "NanoBanana", "Photoshop"], ai: true,
     description: "Campaña fotográfica producida íntegramente con IA generativa para la línea de herramientas eléctricas Ryobi." },
   { id: "honey", title: "Polarbox", category: "3D GENERATIVO", client: "Almacenes Vidrí", year: "2026", image: honey, size: "M", tools: ["NanoBanana Pro", "Illustrator", "Photoshop"],
     description: "Cover de álbum de Facebook" },
-  { id: "polar", title: "Polarbox · Verano", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiPolar, size: "M", tools: ["Gemini", "NanoBanana"], ai: true,
+  { id: "polar", title: "Polarbox · Verano", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiPolar, size: "M", tools: ["Gemini", "NanoBanana"], ai: true,
     description: "Producción digital para campaña estacional de hieleras Polarbox." },
   { id: "coffee", title: "Omaha Glass Pro", category: "3D GENERATIVO", client: "Lingodocs Marketing", year: "2021", image: coffee, size: "M", tools: ["Photoshop", "Illustrator"],
     description: "Post cuadrado individual para Facebook" },
-  { id: "ninja", title: "Ninja Crispi", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiNinja, size: "M", tools: ["NanoBanana 2", "Adobe CC"], ai: true,
+  { id: "ninja", title: "Ninja Crispi", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiNinja, size: "M", tools: ["NanoBanana 2", "Adobe CC"], ai: true,
     description: "Bodegón transformado IA para electrodoméstico Ninja Crispi." },
   { id: "branding", title: "Hydrocacao · Bioterra", category: "Branding", client: "UKN", year: "2022", image: branding, size: "L", tools: ["Illustrator", "InDesign"],
     description: "Sistema de identidad para línea de productos cacao orgánico." },
   { id: "social", title: "Tool Fest Milwaukee", category: "Social Media", client: "Almacenes VIDRÍ", year: "2024", image: social, size: "M", tools: ["Photoshop", "Meta Ads"],
     description: "Campaña de redes sociales para evento promocional Milwaukee." },
-  { id: "rainx", title: "Rain-X · Lluvia", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiRain, size: "S", tools: ["Gemini"], ai: true,
+  { id: "rainx", title: "Rain-X · Lluvia", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiRain, size: "S", tools: ["Gemini"], ai: true,
     description: "Hero shot generado con IA para repelente de lluvia automotriz." },
   { id: "editorial", title: "Vida Social Magazine", category: "Editorial", client: "Lingodocs marketing LLC", year: "2022", image: editorial, size: "S", tools: ["Photoshop", "Illustrator"],
     description: "Rebrand y dirección editorial para revista de estilo de vida." },
-  { id: "boots", title: "Botas de Invierno", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiBoots, size: "S", tools: ["NanoBanana 2"], ai: true,
+  { id: "boots", title: "Botas de Invierno", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiBoots, size: "S", tools: ["NanoBanana 2"], ai: true,
     description: "Imagen producto para línea de calzado outdoor." },
   { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["NanoBanana Pro"],
     description: "Stand publicitario 3D para alimentación especializada Calvo." },
-  { id: "poncho", title: "Capa de Lluvia VIDRÍ", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2025", image: aiPoncho, size: "S", tools: ["Gemini", "Photoshop"], ai: true,
+  { id: "poncho", title: "Capa de Lluvia VIDRÍ", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiPoncho, size: "S", tools: ["Gemini", "Photoshop"], ai: true,
     description: "Producción cinematográfica con IA para temporada lluviosa." },
 ];
 
@@ -69,7 +69,7 @@ export const experiences = [
   {
     company: "UNASA",
     role: "Docente de Educación Superior",
-    period: "ENE 2025 — Actualidad",
+    period: "ENE 2026 — Actualidad",
     description: "Instrucción y desarrollo del pensum para asignaturas como Diseño Corporativo. Guío a estudiantes en metodologías de branding y proyectos de identidad visual alineados a la industria.",
     skills: ["Branding", "Diseño Corporativo", "Pedagogía", "IA generativa"],
   },
@@ -127,7 +127,7 @@ export const stack = {
 };
 
 export const education = [
-  { year: "2025 — Actualidad", school: "Escuela de Negocios Europea de Barcelona", degree: "Máster en Dirección Comercial y Marketing" },
+  { year: "2026 — Actualidad", school: "Escuela de Negocios Europea de Barcelona", degree: "Máster en Dirección Comercial y Marketing" },
   { year: "2024", school: "Universidad Tecnológica de El Salvador", degree: "Posgrado en Comunicación Digital y Creación de Contenido" },
   { year: "2022", school: "Universidad Autónoma de Santa Ana", degree: "Licenciatura en Diseño Gráfico Multimedia" },
   { year: "2024", school: "Udemy", degree: "Facebook Ads con IA" },
