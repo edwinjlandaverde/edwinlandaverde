@@ -54,7 +54,7 @@ export const projects: Project[] = [
   { id: "rainx", title: "Milwaukee", category: "RETAIL", client: "Almacenes VIDRÍ", year: "2023", image: aiRain, size: "S", tools: ["Adobe CC"],
     description: "Post individual utilizando branding de Toolfest Milwaikee" },
   { id: "editorial", title: "Vida Social Magazine", category: "Editorial", client: "Lingodocs marketing LLC", year: "2022", image: editorial, size: "S", tools: ["Photoshop", "Illustrator"],
-    description: "Rebrand y dirección editorial para revista de estilo de vida." },
+    description: "Rebrand y dirección de diseño de portada para revista de estilo de vida." },
   { id: "boots", title: "Transformación de troquel", category: "DISEÑO 3D", client: "UKN Producciones", year: "2021", image: aiBoots, size: "S", tools: ["Cinema 4D"],
     description: "Imagen producto en 3D de un troquel inicial a una previsualización del producto finalizado." },
   { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["NanoBanana Pro"],
