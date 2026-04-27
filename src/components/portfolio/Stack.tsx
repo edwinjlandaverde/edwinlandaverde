@@ -14,7 +14,7 @@ const Stack = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-px bg-border border border-border">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-border border border-border">
           {Object.entries(stack).map(([cat, items], i) => (
             <motion.div
               key={cat}
