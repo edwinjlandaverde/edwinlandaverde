@@ -70,14 +70,14 @@ export const experiences = [
     company: "UNASA",
     role: "Docente de Educación Superior",
     period: "ENE 2025 — Actualidad",
-    description: "Instrucción y desarrollo del pensum para asignaturas de Diseño Corporativo. Guío a estudiantes en metodologías de branding y proyectos de identidad visual alineados a la industria.",
+    description: "Instrucción y desarrollo del pensum para asignaturas como Diseño Corporativo. Guío a estudiantes en metodologías de branding y proyectos de identidad visual alineados a la industria.",
     skills: ["Branding", "Diseño Corporativo", "Pedagogía", "IA generativa"],
   },
   {
     company: "Almacenes VIDRÍ",
     role: "Diseñador para Medios Sociales",
     period: "SEPT 2022 — Actualidad",
-    description: "Diseño y ejecución de activos visuales para campañas digitales — redes, email y web. Auditoría de arte para garantizar consistencia y calidad de marca en todas las plataformas.",
+    description: "Diseño y ejecución de activos visuales para campañas digitales, redes, email y web. Auditoría de arte para garantizar consistencia y calidad de marca en todas las plataformas.",
     skills: ["Social Media", "Branding", "IA generativa", "Meta Ads"],
   },
   {
@@ -115,7 +115,7 @@ export const services = [
   {
     n: "04",
     title: "Docencia Universitaria",
-    body: "Formación en diseño corporativo, señalética y fundamentos en UNASA.",
+    body: "Formación en diseño corporativo, señalética y fundamentos del diseño.",
   },
 ];
 
@@ -123,7 +123,7 @@ export const stack = {
   Diseño: ["Illustrator", "Photoshop", "InDesign", "After Effects", "Cinema 4D"],
   "IA Generativa": ["Gemini", "NanoBanana 2 Pro", "VEO", "Qwen Video", "ChatGPT"],
   Desarrollo: ["React", "Tailwind", "HTML/CSS", "JavaScript"],
-  Marketing: ["Meta Ads", "Google Analytics", "NotebookLM"],
+  Marketing: ["RETAIL", "Google Analytics", "NotebookLM"],
   Gestión: ["Notion", "Google Workspace"],
 };
 
@@ -132,5 +132,5 @@ export const education = [
   { year: "2024", school: "Universidad Tecnológica de El Salvador", degree: "Posgrado en Comunicación Digital y Creación de Contenido" },
   { year: "2022", school: "Universidad Autónoma de Santa Ana", degree: "Licenciatura en Diseño Gráfico Multimedia" },
   { year: "2024", school: "Udemy", degree: "Facebook Ads con IA" },
-  { year: "2023", school: "Udemy", degree: "Creación de Contenido con Inteligencia Artificial" },
+  { year: "2023\nCreación de Contenido con Inteligencia Artificial\nUdemy", degree: "Creación de Contenido con Inteligencia Artificial", school: "Udemy" },
 ];

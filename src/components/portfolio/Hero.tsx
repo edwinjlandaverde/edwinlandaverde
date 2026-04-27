@@ -2,9 +2,11 @@ import { motion } from "framer-motion";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import portrait from "@/assets/portrait.jpg";
 
-const stack = [
-  "Adobe CC", "Gemini", "NanoBanana", "VEO", "React",
-  "Meta Ads", "Big Data", "UX", "Branding", "Cinema 4D",
+const stackItems = [
+  "ADOBE CC", "GEMINI", "NANOBANANA", "VEO", "REACT",
+  "META ADS", "PHOTOSHOP", "DOCENCIA", "BRANDING", "CINEMA 4D",
+  "ADOBE CC", "GEMINI", "BRANDING", "ILLUSTRATOR", "RETAIL DESIGN",
+  "CLAUDE", "MAILING", "UX", "BRANDING", "CINEMA 4D"
 ];
 
 const Hero = () => {
@@ -71,9 +73,9 @@ const Hero = () => {
           </motion.div>
 
           <div className="flex flex-wrap gap-x-8 gap-y-2 pt-8 mono text-xs uppercase tracking-widest text-muted-foreground">
-            <div><span className="text-primary mr-2">→</span>+50 campañas con IA</div>
-            <div><span className="text-primary mr-2">→</span>4 años en branding</div>
-            <div><span className="text-primary mr-2">→</span>Docente UNASA</div>
+            <div><span className="text-primary mr-2">→</span>DISEÑO GRÁFICO</div>
+            <div><span className="text-primary mr-2">→</span>+4 AÑOS DE EXPERIENCIA</div>
+            <div><span className="text-primary mr-2">→</span>DOCENTE UNIVERSITARIO</div>
           </div>
         </div>
 
@@ -93,8 +95,8 @@ const Hero = () => {
             />
             <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between mono text-[10px] uppercase tracking-widest">
               <div>
-                <div className="text-primary">EDL · 2026</div>
-                <div className="text-foreground/70 mt-1">Santa Tecla, SV</div>
+                <div className="text-primary">EJML · 2026</div>
+                <div className="text-foreground/70 mt-1">EL SALVADOR</div>
               </div>
               <div className="text-foreground/70">/01</div>
             </div>
@@ -102,7 +104,7 @@ const Hero = () => {
 
           <div className="col-span-1 relative overflow-hidden marquee-mask">
             <div className="absolute inset-x-0 flex flex-col gap-4 animate-marquee-y mono text-xs uppercase tracking-widest text-muted-foreground">
-              {[...stack, ...stack].map((s, i) => (
+              {[...stackItems, ...stackItems].map((s, i) => (
                 <div key={i} className="rotate-180 [writing-mode:vertical-rl] py-2 border-t border-border">
                   {s}
                 </div>
