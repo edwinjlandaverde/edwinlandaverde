@@ -120,7 +120,7 @@ export const services = [
 ];
 
 export const stack = {
-  Diseño: ["Illustrator", "Photoshop", "InDesign", "After Effects", "Cinema 4D"],
+  Diseño: ["Illustrator", "Photoshop", "InDesign", "After Effects", "NanoBanana Pro"],
   "IA Generativa": ["Gemini", "NanoBanana 2 Pro", "VEO", "Qwen Video", "ChatGPT"],
   Desarrollo: ["React", "Tailwind", "HTML/CSS", "JavaScript"],
   Marketing: ["RETAIL", "Google Analytics", "NotebookLM"],
