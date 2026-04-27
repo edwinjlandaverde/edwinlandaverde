@@ -59,8 +59,8 @@ export const projects: Project[] = [
     description: "Imagen producto para línea de calzado outdoor." },
   { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["NanoBanana Pro"],
     description: "Stand publicitario 3D para alimentación especializada Calvo." },
-  { id: "poncho", title: "Capa de Lluvia VIDRÍ", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiPoncho, size: "S", tools: ["Gemini", "Photoshop"], ai: true,
-    description: "Producción cinematográfica con IA para temporada lluviosa." },
+  { id: "poncho", title: "Cover de facebook", category: "IA Generativa", client: "Castro Realty Houses", year: "2021", image: aiPoncho, size: "S", tools: ["Illustrator", "Photoshop"], ai: true,
+    description: "Cover de carrusel de Facebook." },
 ];
 
 export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "RETAIL"] as const;
