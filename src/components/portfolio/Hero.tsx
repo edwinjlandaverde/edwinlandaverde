@@ -68,7 +68,7 @@ const Hero = () => {
               onClick={() => scrollTo("contact")}
               className="inline-flex items-center gap-3 rounded-full border border-border px-7 py-3.5 hover:border-primary hover:text-primary transition-colors"
             >
-              Agendar llamada
+              Agenda conmigo
             </button>
           </motion.div>
 

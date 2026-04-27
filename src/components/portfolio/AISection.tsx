@@ -30,7 +30,7 @@ const AISection = () => {
           Workflow de producción con <em className="italic text-primary">IA generativa.</em>
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mb-20">
-          Convertí la IA en un músculo de producción dentro de marcas reales — no como gadget,
+          Convertí la IA en un músculo de producción dentro de marcas reales no como gadget,
           sino como capa creativa con resultados medibles.
         </p>
 
