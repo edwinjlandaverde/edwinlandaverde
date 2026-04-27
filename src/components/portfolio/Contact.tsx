@@ -49,7 +49,7 @@ const Contact = () => {
             {[
               { Icon: Mail, label: "Email", value: "edwinlandaverde98@gmail.com", href: "mailto:edwinlandaverde98@gmail.com" },
               { Icon: Phone, label: "Teléfono", value: "+503 7402-2992", href: "tel:+50374022992" },
-              { Icon: MapPin, label: "Ubicación", value: "Santa Tecla, El Salvador" },
+              { Icon: MapPin, label: "Ubicación", value: "El Salvador" },
             ].map(({ Icon, label, value, href }) => (
               <a
                 key={label}
