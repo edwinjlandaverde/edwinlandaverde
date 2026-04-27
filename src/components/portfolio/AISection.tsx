@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { Sparkles } from "lucide-react";
 
 const steps = [
-  { n: "01", t: "Prompt engineering", b: "Construcción de briefs visuales precisos." },
-  { n: "02", t: "Generación", b: "Gemini · NanoBanana 2 · VEO." },
+  { n: "01", t: "Prompt engineering", b: "Construcción de briefs visuales." },
+  { n: "02", t: "Generación", b: "Gemini · NanoBanana 2 · Google Flow · Grok Imagine." },
   { n: "03", t: "Post-producción", b: "Retoque, color y composición." },
   { n: "04", t: "Arte final", b: "Adaptación multi-formato y entrega." },
 ];
