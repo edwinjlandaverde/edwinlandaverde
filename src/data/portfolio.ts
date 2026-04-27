@@ -26,7 +26,7 @@ import aiPoncho from "@/assets/ai/ai-poncho.jpg";
 export type Project = {
   id: string;
   title: string;
-  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial" | "RETAIL";
+  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial" | "RETAIL" | "DISEÑO 3D";
   client: string;
   year: string;
   image: string;
@@ -55,15 +55,15 @@ export const projects: Project[] = [
     description: "Post individual utilizando branding de Toolfest Milwaikee" },
   { id: "editorial", title: "Vida Social Magazine", category: "Editorial", client: "Lingodocs marketing LLC", year: "2022", image: editorial, size: "S", tools: ["Photoshop", "Illustrator"],
     description: "Rebrand y dirección editorial para revista de estilo de vida." },
-  { id: "boots", title: "Botas de Invierno", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiBoots, size: "S", tools: ["NanoBanana 2"], ai: true,
-    description: "Imagen producto para línea de calzado outdoor." },
+  { id: "boots", title: "Transformación de troquel", category: "DISEÑO 3D", client: "UKN Producciones", year: "2021", image: aiBoots, size: "S", tools: ["Cinema 4D"],
+    description: "Imagen producto en 3D de un troquel inicial a una previsualización del producto finalizado." },
   { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["NanoBanana Pro"],
     description: "Stand publicitario 3D para alimentación especializada Calvo." },
   { id: "poncho", title: "Cover de facebook", category: "IA Generativa", client: "Castro Realty Houses", year: "2021", image: aiPoncho, size: "S", tools: ["Illustrator", "Photoshop"], ai: true,
     description: "Cover de carrusel de Facebook." },
 ];
 
-export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "RETAIL"] as const;
+export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "RETAIL", "DISEÑO 3D"] as const;
 
 export const experiences = [
   {
