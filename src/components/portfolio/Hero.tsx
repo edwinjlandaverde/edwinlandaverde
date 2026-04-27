@@ -48,7 +48,7 @@ const Hero = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed"
           >
             <span className="text-foreground">Content & Multimedia Strategist.</span> Fusiono diseño gráfico,
-            IA generativa y análisis de datos para construir marcas con propósito.
+            Inteligencia Artificial y análisis para construir marcas con propósito y humanas.
           </motion.p>
 
           <motion.div
