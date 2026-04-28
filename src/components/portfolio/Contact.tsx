@@ -128,7 +128,7 @@ const Contact = () => {
 
       <footer className="container-x mt-32 pt-10 border-t border-border flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="mono text-xs uppercase tracking-widest text-muted-foreground">
-          © 2026 EDWIN LANDAVERDE · Esta obra está bajo la licencia CC BY-NC-ND 4.0.
+          © 2026 EDWIN LANDAVERDE · Esta obra está bajo la licencia CC BY-NC-ND 4.0. Todas las marcas y logotipos mostrados son propiedad de sus respectivos titulares. Su uso en este portafolio es únicamente con fines demostrativos.
         </div>
         <div className="mono text-xs uppercase tracking-widest text-muted-foreground">
           {"\n"}
