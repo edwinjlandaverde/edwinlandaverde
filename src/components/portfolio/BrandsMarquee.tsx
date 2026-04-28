@@ -1,8 +1,11 @@
+import vidriLogo from "@/assets/logos/vidri.png";
+import karcherLogo from "@/assets/logos/karcher.png";
+
 const logos = [
-  { alt: "VIDRÍ", src: "/logos/vidri-new.png" },
+  { alt: "VIDRÍ", src: vidriLogo },
   { alt: "RYOBI", src: "" },
   { alt: "MILWAUKEE", src: "" },
-  { alt: "KÄRCHER", src: "/logos/karcher-v3.png" },
+  { alt: "KÄRCHER", src: karcherLogo },
   { alt: "POLARBOX", src: "" },
   { alt: "NINJA", src: "" },
   { alt: "CRS", src: "" },
