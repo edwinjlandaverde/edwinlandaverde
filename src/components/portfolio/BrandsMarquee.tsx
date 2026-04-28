@@ -1,5 +1,5 @@
 const logos = [
-  { alt: "VIDRÍ", src: "/logos/vidri.png" },
+  { alt: "VIDRÍ", src: "/logos/vidri-new.png" },
   { alt: "RYOBI", src: "" },
   { alt: "MILWAUKEE", src: "" },
   { alt: "KÄRCHER", src: "/logos/karcher-new.png" },
