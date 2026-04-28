@@ -46,11 +46,6 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-background/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-                {p.ai && (
-                  <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 mono text-[9px] uppercase tracking-widest px-2.5 py-1 rounded-full bg-primary/90 text-primary-foreground">
-                    <Move3d className="w-3 h-3" /> {p.category === "DISEÑO 3D" ? "DISEÑO 3D" : (p.category === "POST RRSS" ? "POST RRSS" : (p.category === "POST PARA RRSS" ? "POST PARA RRSS" : "MODELADO 3D"))}
-                  </span>
-                )}
 
                 <div className="absolute bottom-0 left-0 right-0 p-4 md:p-5 translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500">
                   <div className="mono text-[10px] uppercase tracking-widest text-primary mb-2">{p.category}</div>
