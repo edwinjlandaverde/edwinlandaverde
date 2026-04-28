@@ -17,7 +17,7 @@ const BrandsMarquee = () => {
   return (
     <section
       aria-label="Marcas con las que he trabajado"
-      className="relative overflow-hidden py-6 group"
+      className="relative overflow-hidden group py-[40px]"
       style={{
         backgroundColor: "#0A0A0B",
         borderTop: "1px solid rgba(255,255,255,0.06)",
