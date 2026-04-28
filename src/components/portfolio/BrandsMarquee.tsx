@@ -1,16 +1,16 @@
 const logos = [
-  { alt: "VIDRÍ" },
-  { alt: "RYOBI" },
-  { alt: "MILWAUKEE" },
-  { alt: "KÄRCHER" },
-  { alt: "POLARBOX" },
-  { alt: "NINJA" },
-  { alt: "CRS" },
-  { alt: "LINGODOCS" },
-  { alt: "TUHE GLOBAL" },
-  { alt: "UKN PRODUCCIONES" },
-  { alt: "GRUPO CALVO" },
-  { alt: "NEBRASKA REALTY" },
+  { alt: "VIDRÍ", src: "/logos/vidri.png" },
+  { alt: "RYOBI", src: "" },
+  { alt: "MILWAUKEE", src: "" },
+  { alt: "KÄRCHER", src: "/logos/karcher.png" },
+  { alt: "POLARBOX", src: "" },
+  { alt: "NINJA", src: "" },
+  { alt: "CRS", src: "" },
+  { alt: "LINGODOCS", src: "" },
+  { alt: "TUHE GLOBAL", src: "" },
+  { alt: "UKN PRODUCCIONES", src: "" },
+  { alt: "GRUPO CALVO", src: "" },
+  { alt: "NEBRASKA REALTY", src: "" },
 ];
 
 const BrandsMarquee = () => {
@@ -36,10 +36,9 @@ const BrandsMarquee = () => {
             className="flex items-center justify-center bg-[#141416] border border-white/10 rounded-full px-8 py-3 transition-all duration-300 hover:border-white/20"
           >
             <img
-              src="/brands-logos-updated.webp"
+              src={logo.src}
               alt={logo.alt}
-              className="h-7 w-auto grayscale brightness-[1.8] transition-all duration-300 hover:grayscale-0 hover:brightness-100 opacity-100 object-cover"
-              style={{ filter: undefined }}
+              className="h-7 w-auto object-contain grayscale brightness-[1.8] transition-all duration-300 hover:grayscale-0 hover:brightness-100 opacity-100"
             />
           </div>
         ))}
