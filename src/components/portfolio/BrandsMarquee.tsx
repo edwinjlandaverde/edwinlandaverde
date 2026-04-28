@@ -1,17 +1,31 @@
 import vidriLogo from "@/assets/logos/vidri.png";
 import karcherLogo from "@/assets/logos/karcher.png";
+import crsLogo from "@/assets/logos/crs.png";
+import threeMLogo from "@/assets/logos/3m.png";
+import lancoLogo from "@/assets/logos/lanco.png";
+import boschLogo from "@/assets/logos/bosch.png";
+import milwaukeeLogo from "@/assets/logos/milwaukee.png";
+import ryobiLogo from "@/assets/logos/ryobi.png";
+import castroLogo from "@/assets/logos/castro.png";
+import holcimLogo from "@/assets/logos/holcim.png";
+import uknLogo from "@/assets/logos/ukn.png";
 
 const logos = [
   { alt: "VIDRÍ", src: vidriLogo },
-  { alt: "RYOBI", src: "" },
-  { alt: "MILWAUKEE", src: "" },
+  { alt: "RYOBI", src: ryobiLogo },
+  { alt: "MILWAUKEE", src: milwaukeeLogo },
   { alt: "KÄRCHER", src: karcherLogo },
+  { alt: "BOSCH", src: boschLogo },
+  { alt: "3M", src: threeMLogo },
+  { alt: "CRS", src: crsLogo },
+  { alt: "LANCO", src: lancoLogo },
+  { alt: "HOLCIM", src: holcimLogo },
+  { alt: "CASTRO REALTY GROUP", src: castroLogo },
+  { alt: "UKN PRODUCCIONES", src: uknLogo },
   { alt: "POLARBOX", src: "" },
   { alt: "NINJA", src: "" },
-  { alt: "CRS", src: "" },
   { alt: "LINGODOCS", src: "" },
   { alt: "TUHE GLOBAL", src: "" },
-  { alt: "UKN PRODUCCIONES", src: "" },
   { alt: "GRUPO CALVO", src: "" },
   { alt: "NEBRASKA REALTY", src: "" },
 ];
