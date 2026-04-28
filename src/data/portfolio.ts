@@ -123,7 +123,7 @@ export const stack = {
   Diseño: ["Illustrator", "Photoshop", "Photoshop", "After Effects", "NanoBanana Pro"],
   "IA Generativa": ["Gemini", "NanoBanana 2 Pro", "VEO", "Qwen Video", "ChatGPT"],
   "OTROS CONOCIMIENTOS Y HABILIDADES": ["Comunicación Asertiva", "Facebook Marketing con I.A", "Diplomado en Comunicación y MKT Político", "Fundamentos de SCRUM"],
-  Marketing: ["Retail", "Mailchimp", "Marketing Digital y E-Commerce"],
+  Marketing: ["POST RRSS", "Mailchimp", "Marketing Digital y E-Commerce"],
 };
 
 export const education = [
