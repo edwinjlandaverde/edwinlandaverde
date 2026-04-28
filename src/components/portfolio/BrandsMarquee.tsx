@@ -1,8 +1,11 @@
+import vidriLogo from "@/assets/logos/vidri.png";
+import karcherLogo from "@/assets/logos/karcher.png";
+
 const logos = [
-  { alt: "VIDRÍ", src: "/logos/vidri-new.png" },
+  { alt: "VIDRÍ", src: vidriLogo },
   { alt: "RYOBI", src: "" },
   { alt: "MILWAUKEE", src: "" },
-  { alt: "KÄRCHER", src: "/logos/karcher-v3.png" },
+  { alt: "KÄRCHER", src: karcherLogo },
   { alt: "POLARBOX", src: "" },
   { alt: "NINJA", src: "" },
   { alt: "CRS", src: "" },
@@ -36,11 +39,18 @@ const BrandsMarquee = () => {
             className="flex items-center justify-center shrink-0"
             style={{ width: 120, height: 75 }}
           >
-            <img
-              src={logo.src}
-              alt={logo.alt}
-              className="max-w-full max-h-full object-contain grayscale brightness-[1.8] transition-all duration-300 hover:grayscale-0 hover:brightness-100 opacity-100"
-            />
+            {logo.src ? (
+              <img
+                src={logo.src}
+                alt={logo.alt}
+                loading="lazy"
+                className="max-w-full max-h-full object-contain grayscale brightness-[1.8] transition-all duration-300 hover:grayscale-0 hover:brightness-100 opacity-100"
+              />
+            ) : (
+              <span className="mono text-[10px] uppercase tracking-widest text-white/40">
+                {logo.alt}
+              </span>
+            )}
           </div>
         ))}
       </div>
