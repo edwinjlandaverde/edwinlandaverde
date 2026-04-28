@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Move3d } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 const steps = [
   { n: "01", t: "Prompt engineering", b: "Construcción de briefs visuales." },
@@ -23,7 +23,7 @@ const AISection = () => {
       <div className="container-x relative">
         <div className="flex items-center gap-3 mb-6">
           <span className="eyebrow text-primary">/06 · Diferenciador</span>
-          <Move3d className="w-3 h-3 text-primary" />
+          <Sparkles className="w-3 h-3 text-primary" />
         </div>
 
         <h2 className="display-serif text-5xl md:text-7xl lg:text-8xl text-balance max-w-5xl mb-8">
