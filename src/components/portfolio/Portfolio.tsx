@@ -10,7 +10,7 @@ const Portfolio = () => {
   const filtered = filter === "Todos" ? projects : projects.filter((p) => p.category === filter);
 
   return (
-    <section id="portfolio" className="py-32 lg:py-40 border-t border-border">
+    <section id="portfolio" className="lg:py-40 border-t border-border py-[50px]">
       <div className="container-x">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-16">
           <div>
