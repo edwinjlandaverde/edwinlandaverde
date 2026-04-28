@@ -1,5 +1,6 @@
 import Nav from "@/components/portfolio/Nav";
 import Hero from "@/components/portfolio/Hero";
+import BrandsMarquee from "@/components/portfolio/BrandsMarquee";
 import About from "@/components/portfolio/About";
 import Experience from "@/components/portfolio/Experience";
 import Services from "@/components/portfolio/Services";
@@ -29,6 +30,7 @@ const Index = () => {
       />
       <Nav />
       <Hero />
+      <BrandsMarquee />
       <About />
       <Experience />
       <Services />
