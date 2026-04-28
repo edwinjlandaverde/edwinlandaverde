@@ -33,12 +33,13 @@ const BrandsMarquee = () => {
         {[...logos, ...logos].map((logo, i) => (
           <div
             key={i}
-            className="flex items-center justify-center bg-[#141416] border border-white/10 rounded-full px-8 py-3 transition-all duration-300 hover:border-white/20"
+            className="flex items-center justify-center shrink-0"
+            style={{ width: 120, height: 75 }}
           >
             <img
               src={logo.src}
               alt={logo.alt}
-              className="h-7 w-auto object-contain grayscale brightness-[1.8] transition-all duration-300 hover:grayscale-0 hover:brightness-100 opacity-100"
+              className="max-w-full max-h-full object-contain grayscale brightness-[1.8] transition-all duration-300 hover:grayscale-0 hover:brightness-100 opacity-100"
             />
           </div>
         ))}
