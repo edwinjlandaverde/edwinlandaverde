@@ -26,7 +26,7 @@ import aiPoncho from "@/assets/ai/ai-poncho.jpg";
 export type Project = {
   id: string;
   title: string;
-  category: "Branding" | "3D GENERATIVO" | "Social Media" | "IA Generativa" | "Editorial" | "Retail" | "DISEÑO 3D";
+  category: "Branding" | "POST PARA RRSS" | "Social Media" | "IA Generativa" | "Editorial" | "Retail" | "DISEÑO 3D";
   client: string;
   year: string;
   image: string;
@@ -39,11 +39,11 @@ export type Project = {
 export const projects: Project[] = [
   { id: "ryobi", title: "Ryobi · Las Mejores Marcas", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiRyobi, size: "L", tools: ["Gemini", "NanoBanana", "Photoshop"], ai: true,
     description: "Campaña fotográfica producida íntegramente con IA generativa para la línea de herramientas eléctricas Ryobi." },
-  { id: "honey", title: "Polarbox", category: "3D GENERATIVO", client: "Almacenes Vidrí", year: "2026", image: honey, size: "M", tools: ["NanoBanana Pro", "Illustrator", "Photoshop"],
+  { id: "honey", title: "Polarbox", category: "POST PARA RRSS", client: "Almacenes Vidrí", year: "2026", image: honey, size: "M", tools: ["NanoBanana Pro", "Illustrator", "Photoshop"],
     description: "Cover de álbum de Facebook" },
   { id: "polar", title: "Polarbox · Verano", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiPolar, size: "M", tools: ["Gemini", "NanoBanana"], ai: true,
     description: "Producción digital para campaña estacional de hieleras Polarbox." },
-  { id: "coffee", title: "Omaha Glass Pro", category: "3D GENERATIVO", client: "Lingodocs Marketing", year: "2021", image: coffee, size: "M", tools: ["Photoshop", "Illustrator"],
+  { id: "coffee", title: "Omaha Glass Pro", category: "POST PARA RRSS", client: "Lingodocs Marketing", year: "2021", image: coffee, size: "M", tools: ["Photoshop", "Illustrator"],
     description: "Post cuadrado individual para Facebook" },
   { id: "ninja", title: "Ninja Crispi", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiNinja, size: "M", tools: ["NanoBanana 2", "Adobe CC"], ai: true,
     description: "Bodegón transformado IA para electrodoméstico Ninja Crispi." },
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     description: "Cover de carrusel de Facebook." },
 ];
 
-export const categories = ["Todos", "Branding", "3D GENERATIVO", "Social Media", "IA Generativa", "Editorial", "Retail", "DISEÑO 3D"] as const;
+export const categories = ["Todos", "Branding", "POST PARA RRSS", "Social Media", "IA Generativa", "Editorial", "Retail", "DISEÑO 3D"] as const;
 
 export const experiences = [
   {

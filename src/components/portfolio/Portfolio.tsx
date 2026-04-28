@@ -48,7 +48,7 @@ const Portfolio = () => {
 
                 {p.ai && (
                   <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 mono text-[9px] uppercase tracking-widest px-2.5 py-1 rounded-full bg-primary/90 text-primary-foreground">
-                    <Move3d className="w-3 h-3" /> {p.category === "3D GENERATIVO" || p.category === "DISEÑO 3D" ? "DISEÑO 3D" : (p.category === "Retail" ? "" : "MODELADO 3D")}
+                    <Move3d className="w-3 h-3" /> {p.category === "POST PARA RRSS" || p.category === "DISEÑO 3D" ? "DISEÑO 3D" : (p.category === "Retail" ? "" : "MODELADO 3D")}
                   </span>
                 )}
 
