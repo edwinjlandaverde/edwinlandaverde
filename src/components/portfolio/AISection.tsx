@@ -27,7 +27,7 @@ const AISection = () => {
         </div>
 
         <h2 className="display-serif text-5xl md:text-7xl lg:text-8xl text-balance max-w-5xl mb-8">
-          Workflow de producción con <em className="italic text-primary">MODELADO 3D.</em>
+          Workflow de producción con <em className="italic text-primary">IA generativa.</em>
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mb-20">
           Convertí la IA en un músculo de producción dentro de marcas reales no como gadget,
