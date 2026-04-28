@@ -2,7 +2,7 @@ const logos = [
   { alt: "VIDRÍ", src: "/logos/vidri-new.png" },
   { alt: "RYOBI", src: "" },
   { alt: "MILWAUKEE", src: "" },
-  { alt: "KÄRCHER", src: "/logos/karcher-new.png" },
+  { alt: "KÄRCHER", src: "/logos/karcher-v3.png" },
   { alt: "POLARBOX", src: "" },
   { alt: "NINJA", src: "" },
   { alt: "CRS", src: "" },
