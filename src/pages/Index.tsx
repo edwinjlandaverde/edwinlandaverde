@@ -24,7 +24,7 @@ const Index = () => {
             telephone: "+503-7402-2992",
             address: { "@type": "PostalAddress", addressLocality: "Santa Tecla", addressCountry: "SV" },
             url: typeof window !== "undefined" ? window.location.href : "",
-            sameAs: ["https://instagram.com/edwinjlandaverde", "https://t.me/edwinjlandaverde"],
+            sameAs: ["https://instagram.com/edwinjlandaverde", "https://www.linkedin.com/in/edwinmorenosv/"],
           }),
         }}
       />

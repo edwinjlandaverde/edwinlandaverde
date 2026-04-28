@@ -70,7 +70,7 @@ const Contact = () => {
 
           <div className="flex flex-wrap gap-3 pt-2">
             <a href="https://instagram.com/edwinjlandaverde" target="_blank" rel="noreferrer" className="pill hover:border-primary">@edwinjlandaverde · IG</a>
-            <a href="https://t.me/edwinjlandaverde" target="_blank" rel="noreferrer" className="pill hover:border-primary">Telegram</a>
+            <a href="https://www.linkedin.com/in/edwinmorenosv/" target="_blank" rel="noreferrer" className="pill hover:border-primary">LinkedIn</a>
           </div>
         </div>
 
