@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { categories, projects, type Project } from "@/data/portfolio";
-import { Move3d, X } from "lucide-react";
+import { Sparkles, X } from "lucide-react";
 
 const Portfolio = () => {
   const [filter, setFilter] = useState<(typeof categories)[number]>("Todos");
@@ -87,7 +87,7 @@ const Portfolio = () => {
                 <div className="md:col-span-2">
                   <div className="mono text-xs uppercase tracking-widest text-primary mb-3 flex items-center gap-2">
                     {selected.category}
-                    {selected.ai && <span className="inline-flex items-center gap-1"><Move3d className="w-3 h-3" /> MODELADO 3D</span>}
+                    {selected.ai && <span className="inline-flex items-center gap-1"><Sparkles className="w-3 h-3" /> MODELADO 3D</span>}
                   </div>
                   <h3 className="display-serif text-4xl md:text-5xl mb-4">{selected.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{selected.description}</p>
