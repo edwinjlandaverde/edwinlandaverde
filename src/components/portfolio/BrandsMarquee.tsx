@@ -36,9 +36,9 @@ const BrandsMarquee = () => {
             className="flex items-center justify-center bg-[#141416] border border-white/10 rounded-full px-8 py-3 transition-all duration-300 hover:border-white/20"
           >
             <img
-              src="/brands-logos.png"
+              src="/brands-logos-new.png"
               alt={logo.alt}
-              className="h-7 w-auto object-contain opacity-45 grayscale brightness-[1.8] transition-all duration-300 hover:opacity-100 hover:grayscale-0 hover:brightness-100"
+              className="h-7 w-auto object-contain grayscale brightness-[1.8] transition-all duration-300 hover:grayscale-0 hover:brightness-100 opacity-100"
               style={{ filter: undefined }}
             />
           </div>
