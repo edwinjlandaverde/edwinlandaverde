@@ -86,7 +86,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-x-8 gap-y-2 pt-8 mono text-xs uppercase tracking-widest text-muted-foreground">
             <div><span className="text-primary mr-2">→</span>DISEÑO GRÁFICO</div>
-            <div><span className="text-primary mr-2">→</span>+5 AÑOS DE EXPERIENCIA</div>
+            <div><span className="text-primary mr-2">→</span>+4 AÑOS DE EXPERIENCIA</div>
             <div><span className="text-primary mr-2">→</span>DOCENTE UNIVERSITARIO</div>
           </div>
         </div>
