@@ -31,7 +31,7 @@ const AISection = () => {
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mb-20">
           Convertí la IA en un músculo de producción dentro de marcas reales no como gadget,
-          sino como capa creativa con resultados medibles.
+          sino como capa creativa para impulsar resultados gráficos.
         </p>
 
         {/* Flow */}
