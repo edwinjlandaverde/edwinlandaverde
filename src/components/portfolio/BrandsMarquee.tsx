@@ -22,12 +22,6 @@ const logos = [
   { alt: "HOLCIM", src: holcimLogo },
   { alt: "CASTRO REALTY GROUP", src: castroLogo },
   { alt: "UKN PRODUCCIONES", src: uknLogo },
-  { alt: "POLARBOX", src: "" },
-  { alt: "NINJA", src: "" },
-  { alt: "LINGODOCS", src: "" },
-  { alt: "TUHE GLOBAL", src: "" },
-  { alt: "GRUPO CALVO", src: "" },
-  { alt: "NEBRASKA REALTY", src: "" },
 ];
 
 const BrandsMarquee = () => {
