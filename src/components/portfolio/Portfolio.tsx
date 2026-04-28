@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { categories, projects, type Project } from "@/data/portfolio";
-import { Sparkles, X } from "lucide-react";
+import { Move3d, X } from "lucide-react";
 
 const Portfolio = () => {
   const [filter, setFilter] = useState<(typeof categories)[number]>("Todos");
@@ -48,7 +48,7 @@ const Portfolio = () => {
 
                 {p.ai && (
                   <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 mono text-[9px] uppercase tracking-widest px-2.5 py-1 rounded-full bg-primary/90 text-primary-foreground">
-                    <Sparkles className="w-3 h-3" /> {p.category === "3D GENERATIVO" || p.category === "DISEÑO 3D" ? "DISEÑO 3D" : (p.category === "Retail" ? "" : "FOTOGRAFÍA MEJORADA POR I.A")}
+                    <Move3d className="w-3 h-3" /> {p.category === "3D GENERATIVO" || p.category === "DISEÑO 3D" ? "DISEÑO 3D" : (p.category === "Retail" ? "" : "FOTOGRAFÍA MEJORADA POR I.A")}
                   </span>
                 )}
 
@@ -92,7 +92,7 @@ const Portfolio = () => {
                 <div className="md:col-span-2">
                   <div className="mono text-xs uppercase tracking-widest text-primary mb-3 flex items-center gap-2">
                     {selected.category}
-                    {selected.ai && <span className="inline-flex items-center gap-1"><Sparkles className="w-3 h-3" /> AI</span>}
+                    {selected.ai && <span className="inline-flex items-center gap-1"><Move3d className="w-3 h-3" /> AI</span>}
                   </div>
                   <h3 className="display-serif text-4xl md:text-5xl mb-4">{selected.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{selected.description}</p>
