@@ -37,7 +37,7 @@ const About = () => {
             Mi práctica se articula en cuatro ejes: <span className="text-foreground">habilidades técnicas, valores,
             diseño funcional e innovación digital.</span> Además como docente universitario, formo a la próxima
             generación de diseñadores en fundamentos, señalética y diseño corporativo, integrando metodologías
-            ágiles y herramientas de MODELADO 3D.
+            ágiles y herramientas de IA generativa.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 pt-12 border-t border-border">
