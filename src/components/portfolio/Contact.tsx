@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { z } from "zod";
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
-import AnimationsCTA from "./AnimationsCTA";
 import { toast } from "sonner";
 
 const schema = z.object({
@@ -126,8 +125,6 @@ const Contact = () => {
           </button>
         </motion.form>
       </div>
-
-      <AnimationsCTA />
 
       <footer className="container-x mt-32 pt-10 border-t border-border flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="mono text-xs uppercase tracking-widest text-muted-foreground">
