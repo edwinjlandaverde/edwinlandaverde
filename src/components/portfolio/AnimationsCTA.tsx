@@ -8,17 +8,17 @@ const AnimationsCTA = () => {
           href="https://vimeo.com/1187568010?share=copy&fl=sv&fe=ci"
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative inline-flex items-center gap-2 rounded-full px-8 py-4 border border-[#E8FF3A]/30 bg-transparent text-[#E8FF3A] font-mono text-[11px] tracking-[0.2em] uppercase overflow-hidden transition-all duration-300 hover:bg-[#E8FF3A] hover:text-[#0A0A0B] hover:border-[#E8FF3A] animate-[float_6s_ease-in-out_infinite]"
+          className="group relative inline-flex items-center gap-2 rounded-full px-8 py-4 border border-[#E8FF3A]/30 bg-transparent text-[#E8FF3A] font-mono text-[11px] tracking-[0.2em] uppercase overflow-hidden transition-all duration-300 hover:bg-[#E8FF3A] hover:text-[#0A0A0B] hover:border-[#E8FF3A] animate-[float_12s_ease-in-out_infinite]"
         >
           {/* Pulse ring — sutil */}
           <span
             aria-hidden
-            className="pointer-events-none absolute inset-0 rounded-full border border-[#E8FF3A]/15 animate-[pulse-ring_4s_ease-out_infinite] group-hover:[animation-play-state:paused]"
+            className="pointer-events-none absolute inset-0 rounded-full border border-[#E8FF3A]/15 animate-[pulse-ring_8s_ease-out_infinite] group-hover:[animation-play-state:paused]"
           />
           {/* Shimmer sweep — sutil */}
           <span
             aria-hidden
-            className="pointer-events-none absolute inset-0 rounded-full animate-[shimmer_5s_ease-in-out_infinite] group-hover:[animation-play-state:paused]"
+            className="pointer-events-none absolute inset-0 rounded-full animate-[shimmer_10s_ease-in-out_infinite] group-hover:[animation-play-state:paused]"
             style={{
               background:
                 "linear-gradient(90deg, transparent 0%, rgba(232,255,58,0.06) 50%, transparent 100%)",
@@ -33,15 +33,15 @@ const AnimationsCTA = () => {
           href="https://vimeo.com/edwinjlandaverde"
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative inline-flex items-center gap-2 rounded-full px-8 py-4 border border-[#E8FF3A]/30 bg-transparent text-[#E8FF3A] font-mono text-[11px] tracking-[0.2em] uppercase overflow-hidden transition-all duration-300 hover:bg-[#E8FF3A] hover:text-[#0A0A0B] hover:border-[#E8FF3A] animate-[float_6s_ease-in-out_infinite] [animation-delay:2s]"
+          className="group relative inline-flex items-center gap-2 rounded-full px-8 py-4 border border-[#E8FF3A]/30 bg-transparent text-[#E8FF3A] font-mono text-[11px] tracking-[0.2em] uppercase overflow-hidden transition-all duration-300 hover:bg-[#E8FF3A] hover:text-[#0A0A0B] hover:border-[#E8FF3A] animate-[float_12s_ease-in-out_infinite] [animation-delay:4s]"
         >
           <span
             aria-hidden
-            className="pointer-events-none absolute inset-0 rounded-full border border-[#E8FF3A]/15 animate-[pulse-ring_4s_ease-out_infinite] group-hover:[animation-play-state:paused]"
+            className="pointer-events-none absolute inset-0 rounded-full border border-[#E8FF3A]/15 animate-[pulse-ring_8s_ease-out_infinite] group-hover:[animation-play-state:paused]"
           />
           <span
             aria-hidden
-            className="pointer-events-none absolute inset-0 rounded-full animate-[shimmer_5s_ease-in-out_infinite] group-hover:[animation-play-state:paused]"
+            className="pointer-events-none absolute inset-0 rounded-full animate-[shimmer_10s_ease-in-out_infinite] group-hover:[animation-play-state:paused]"
             style={{
               background:
                 "linear-gradient(90deg, transparent 0%, rgba(232,255,58,0.06) 50%, transparent 100%)",
