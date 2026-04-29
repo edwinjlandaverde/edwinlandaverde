@@ -39,7 +39,7 @@ export type Project = {
 export const projects: Project[] = [
   { id: "ryobi", title: "Ryobi · Las Mejores Marcas", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiRyobi, size: "L", tools: ["Gemini", "NanoBanana", "Photoshop"], ai: true,
     description: "Campaña fotográfica producida íntegramente con IA generativa para la línea de herramientas eléctricas Ryobi." },
-  { id: "honey", title: "Polarbox", category: "POST PARA RRSS", client: "Almacenes Vidrí", year: "2026", image: honey, size: "M", tools: ["NanoBanana Pro", "Illustrator", "Photoshop"],
+  { id: "honey", title: "Polarbox", category: "POST PARA RRSS", client: "Almacenes Vidrí", year: "2026", image: honey, size: "M", tools: ["Cinema 4D y Dimension", "Illustrator", "Photoshop"],
     description: "Cover de álbum de Facebook" },
   { id: "polar", title: "Polarbox · Verano", category: "IA Generativa", client: "Almacenes VIDRÍ", year: "2026", image: aiPolar, size: "M", tools: ["Gemini", "NanoBanana"], ai: true,
     description: "Producción digital para campaña estacional de hieleras Polarbox." },
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     description: "Rebrand y dirección de diseño de portada para revista de estilo de vida." },
   { id: "boots", title: "Transformación de troquel", category: "DISEÑO 3D", client: "UKN Producciones", year: "2021", image: aiBoots, size: "S", tools: ["Cinema 4D"],
     description: "Imagen producto en 3D de un troquel inicial a una previsualización del producto finalizado." },
-  { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["NanoBanana Pro"],
+  { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["Cinema 4D y Dimension"],
     description: "Stand publicitario 3D para alimentación especializada Calvo." },
   { id: "poncho", title: "Cover de facebook", category: "POST RRSS", client: "Castro Realty Group", year: "2021", image: aiPoncho, size: "S", tools: ["Illustrator", "Photoshop"],
     description: "Cover de carrusel de Facebook." },
@@ -120,8 +120,8 @@ export const services = [
 ];
 
 export const stack = {
-  Diseño: ["Illustrator", "Photoshop", "Photoshop", "After Effects", "NanoBanana Pro"],
-  "IA Generativa": ["Gemini", "NanoBanana 2 Pro", "VEO", "Qwen Video", "ChatGPT"],
+  Diseño: ["Illustrator", "Photoshop", "Photoshop", "After Effects", "Cinema 4D y Dimension"],
+  "IA Generativa": ["Gemini", "NanoBanana 2", "VEO", "Qwen Video", "ChatGPT"],
   "OTROS CONOCIMIENTOS Y HABILIDADES": ["Comunicación Asertiva", "Facebook Marketing con I.A", "Diplomado en Comunicación y MKT Político", "Fundamentos de SCRUM"],
   Marketing: ["POST RRSS", "Mailchimp", "Marketing Digital y E-Commerce"],
 };
