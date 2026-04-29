@@ -8,6 +8,7 @@ import Portfolio from "@/components/portfolio/Portfolio";
 import AISection from "@/components/portfolio/AISection";
 import Stack from "@/components/portfolio/Stack";
 import Contact from "@/components/portfolio/Contact";
+import AnimationsCTA from "@/components/portfolio/AnimationsCTA";
 
 const Index = () => {
   return (
