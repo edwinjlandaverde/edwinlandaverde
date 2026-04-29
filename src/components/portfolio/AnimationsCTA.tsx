@@ -30,7 +30,7 @@ const AnimationsCTA = () => {
         </a>
 
         <a
-          href="https://vimeo.com/user/edwinlandaverde"
+          href="https://vimeo.com/edwinjlandaverde"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative inline-flex items-center gap-2 rounded-full px-8 py-4 border border-[#E8FF3A]/30 bg-transparent text-[#E8FF3A] font-mono text-[11px] tracking-[0.2em] uppercase overflow-hidden transition-all duration-300 hover:bg-[#E8FF3A] hover:text-[#0A0A0B] hover:border-[#E8FF3A] animate-[float_6s_ease-in-out_infinite] [animation-delay:2s]"
