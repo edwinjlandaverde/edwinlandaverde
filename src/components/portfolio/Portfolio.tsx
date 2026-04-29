@@ -59,6 +59,8 @@ const Portfolio = () => {
         </motion.div>
       </div>
 
+      <AnimationsCTA />
+
       {/* Modal */}
       <AnimatePresence>
         {selected && (
