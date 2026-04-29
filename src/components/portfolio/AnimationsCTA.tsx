@@ -26,7 +26,7 @@ const AnimationsCTA = () => {
             }}
           />
           <Play size={13} className="relative z-10" />
-          <span className="relative z-10">CONOCE MIS ANIMACIONES</span>
+          <span className="relative z-10">CONOCE MIS ANIMACIONES más recientes</span>
         </a>
 
         <a
@@ -49,7 +49,7 @@ const AnimationsCTA = () => {
             }}
           />
           <ExternalLink size={13} className="relative z-10" />
-          <span className="relative z-10">VISITA MI VIMEO</span>
+          <span className="relative z-10">VISITA MI PERFIL DE VIMEO</span>
         </a>
       </div>
     </div>
