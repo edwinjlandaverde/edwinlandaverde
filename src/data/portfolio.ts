@@ -26,7 +26,7 @@ import aiPoncho from "@/assets/ai/ai-poncho.jpg";
 export type Project = {
   id: string;
   title: string;
-  category: "Branding" | "POST PARA RRSS" | "Social Media" | "IA Generativa" | "Editorial" | "POST RRSS" | "DISEÑO 3D";
+  category: "Branding" | "POST PARA RRSS" | "Social Media" | "IA Generativa" | "Editorial" | "Manejo de RRSS" | "DISEÑO 3D";
   client: string;
   year: string;
   image: string;
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     description: "Bodegon en 3D de un rebranding de etiqueta de productos" },
   { id: "social", title: "Rain-X", category: "Social Media", client: "Almacenes VIDRÍ", year: "2026", image: social, size: "M", tools: ["Photoshop", "Meta Ads"],
     description: "Post de retail para Facebook" },
-  { id: "rainx", title: "Milwaukee", category: "POST RRSS", client: "Almacenes VIDRÍ", year: "2023", image: aiRain, size: "S", tools: ["Adobe CC"],
+  { id: "rainx", title: "Milwaukee", category: "Manejo de RRSS", client: "Almacenes VIDRÍ", year: "2023", image: aiRain, size: "S", tools: ["Adobe CC"],
     description: "Post individual utilizando branding de Toolfest Milwaikee" },
   { id: "editorial", title: "Vida Social Magazine", category: "Editorial", client: "Lingodocs marketing LLC", year: "2022", image: editorial, size: "S", tools: ["Photoshop", "Illustrator"],
     description: "Rebrand y dirección de diseño de portada para revista de estilo de vida." },
@@ -59,11 +59,11 @@ export const projects: Project[] = [
     description: "Imagen producto en 3D de un troquel inicial a una previsualización del producto finalizado." },
   { id: "stand", title: "Grupo Calvo · Stand", category: "Branding", client: "Almacenes Vidrí", year: "2026", image: stand, size: "L", tools: ["Cinema 4D y Dimension"],
     description: "Stand publicitario 3D para alimentación especializada Calvo." },
-  { id: "poncho", title: "Cover de facebook", category: "POST RRSS", client: "Castro Realty Group", year: "2021", image: aiPoncho, size: "S", tools: ["Illustrator", "Photoshop"],
+  { id: "poncho", title: "Cover de facebook", category: "Manejo de RRSS", client: "Castro Realty Group", year: "2021", image: aiPoncho, size: "S", tools: ["Illustrator", "Photoshop"],
     description: "Cover de carrusel de Facebook." },
 ];
 
-export const categories = ["Todos", "Branding", "POST PARA RRSS", "Social Media", "IA Generativa", "Editorial", "POST RRSS", "DISEÑO 3D"] as const;
+export const categories = ["Todos", "Branding", "POST PARA RRSS", "Social Media", "IA Generativa", "Editorial", "Manejo de RRSS", "DISEÑO 3D"] as const;
 
 export const experiences = [
   {
@@ -123,7 +123,7 @@ export const stack = {
   Diseño: ["Illustrator", "Photoshop", "Photoshop", "After Effects", "Cinema 4D y Dimension"],
   "IA Generativa": ["Gemini", "NanoBanana 2", "VEO", "Qwen Video", "ChatGPT"],
   "OTROS CONOCIMIENTOS Y HABILIDADES": ["Comunicación Asertiva", "Facebook Marketing con I.A", "Diplomado en Comunicación y MKT Político", "Fundamentos de SCRUM"],
-  Marketing: ["POST RRSS", "Mailchimp", "Marketing Digital y E-Commerce"],
+  Marketing: ["Manejo de RRSS", "Mailchimp", "Marketing Digital y E-Commerce"],
 };
 
 export const education = [
