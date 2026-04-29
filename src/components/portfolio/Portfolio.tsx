@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { categories, projects, type Project } from "@/data/portfolio";
 import { Sparkles, X } from "lucide-react";
+import AnimationsCTA from "./AnimationsCTA";
 
 const Portfolio = () => {
   const [filter, setFilter] = useState<(typeof categories)[number]>("Todos");
@@ -57,6 +58,8 @@ const Portfolio = () => {
           </AnimatePresence>
         </motion.div>
       </div>
+
+      <AnimationsCTA />
 
       {/* Modal */}
       <AnimatePresence>

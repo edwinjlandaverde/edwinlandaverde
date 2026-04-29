@@ -88,12 +88,12 @@ export default {
           "100%": { backgroundPosition: "200% 0" },
         },
         "pulse-ring": {
-          "0%": { transform: "scale(1)", opacity: "0.4" },
-          "100%": { transform: "scale(1.18)", opacity: "0" },
+          "0%": { transform: "scale(1)", opacity: "0.25" },
+          "100%": { transform: "scale(1.08)", opacity: "0" },
         },
         "float": {
           "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-5px)" },
+          "50%": { transform: "translateY(-2px)" },
         },
       },
       animation: {
