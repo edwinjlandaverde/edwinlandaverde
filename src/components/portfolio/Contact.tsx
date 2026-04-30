@@ -26,7 +26,7 @@ const Contact = () => {
     setErrors({});
     const subject = encodeURIComponent(`Contacto de ${r.data.name}`);
     const body = encodeURIComponent(`${r.data.message}\n\n— ${r.data.name} (${r.data.email})`);
-    window.location.href = `mailto:edwinlandaverde98@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hola@edwinlandaverde.com?subject=${subject}&body=${body}`;
     toast.success("¡Gracias! Abriendo tu cliente de correo…");
     setForm({ name: "", email: "", message: "" });
   };
@@ -47,7 +47,7 @@ const Contact = () => {
 
           <div className="space-y-5 pt-8">
             {[
-              { Icon: Mail, label: "Email", value: "edwinlandaverde98@gmail.com", href: "mailto:edwinlandaverde98@gmail.com" },
+              { Icon: Mail, label: "Email", value: "hola@edwinlandaverde.com", href: "mailto:hola@edwinlandaverde.com" },
               { Icon: Phone, label: "Teléfono", value: "+503 7402-2992", href: "tel:+50374022992" },
               { Icon: MapPin, label: "Ubicación", value: "El Salvador" },
             ].map(({ Icon, label, value, href }) => (
