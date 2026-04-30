@@ -20,7 +20,7 @@ const Index = () => {
             "@type": "Person",
             name: "Edwin Landaverde",
             jobTitle: "Content & Multimedia Strategist",
-            email: "edwinlandaverde98@gmail.com",
+            email: "hola@edwinlandaverde.com",
             telephone: "+503-7402-2992",
             address: { "@type": "PostalAddress", addressLocality: "Santa Tecla", addressCountry: "SV" },
             url: typeof window !== "undefined" ? window.location.href : "",
