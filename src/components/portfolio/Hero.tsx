@@ -25,7 +25,7 @@ const Hero = () => {
   const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-end pt-32 pb-16 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-end pt-32 pb-16 overflow-hidden py-[75px]">
       {/* Background radial */}
       <div className="absolute inset-0 pointer-events-none" style={{ background: "var(--gradient-radial)" }} />
 
