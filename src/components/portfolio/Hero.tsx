@@ -76,6 +76,15 @@ const Hero = () => {
               Ver portafolio
               <ArrowUpRight className="w-4 h-4 transition-transform group-hover:rotate-45" />
             </button>
+            <a
+              href="https://www.linkedin.com/in/edwinlandaverde/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-3 rounded-full border border-border px-7 py-3.5 hover:border-primary hover:text-primary transition-colors"
+            >
+              Conoce mi LinkedIn
+              <ArrowUpRight className="w-4 h-4 transition-transform group-hover:rotate-45" />
+            </a>
             <button
               onClick={() => scrollTo("contact")}
               className="inline-flex items-center gap-3 rounded-full border border-border px-7 py-3.5 hover:border-primary hover:text-primary transition-colors"
