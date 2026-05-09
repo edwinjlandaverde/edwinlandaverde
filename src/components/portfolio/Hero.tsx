@@ -85,12 +85,14 @@ const Hero = () => {
               Conoce mi LinkedIn
               <ArrowUpRight className="w-4 h-4 transition-transform group-hover:rotate-45" />
             </a>
-            <button
-              onClick={() => scrollTo("contact")}
+            <a
+              href="https://calendar.app.google/EgYgxTTi3P3N8NX49"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-full border border-border px-7 py-3.5 hover:border-primary hover:text-primary transition-colors"
             >
               Agenda conmigo
-            </button>
+            </a>
           </motion.div>
 
           <div className="flex flex-wrap gap-x-8 gap-y-2 pt-8 mono text-xs uppercase tracking-widest text-muted-foreground">
