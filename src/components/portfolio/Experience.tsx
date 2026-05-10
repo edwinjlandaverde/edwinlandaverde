@@ -32,7 +32,10 @@ const Experience = () => {
                 className={`relative grid grid-cols-1 md:grid-cols-2 gap-8 ${i % 2 ? "md:[&>*:first-child]:order-2" : ""}`}
               >
                 {/* Dot */}
-                <div className="absolute left-2 md:left-1/2 top-2 w-3 h-3 rounded-full bg-primary -translate-x-1/2 ring-4 ring-background" />
+                <div className="absolute left-2 md:left-1/2 top-2 -translate-x-1/2 w-3 h-3">
+                  <span className="absolute inset-0 rounded-full bg-primary/40 animate-ping" />
+                  <span className="relative block w-3 h-3 rounded-full bg-primary ring-4 ring-background" />
+                </div>
 
                 <div className={`pl-10 md:pl-0 ${i % 2 ? "md:pl-16" : "md:pr-16 md:text-right"}`}>
                   <div className="mono text-[10px] uppercase tracking-widest text-primary mb-3">{exp.period}</div>
